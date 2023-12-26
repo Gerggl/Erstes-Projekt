@@ -1,0 +1,14 @@
+/*Am Anfang wird immer der Body gestylt*/
+/*Der Aufbau ist immer gleich: zuerst der Bereich, den man stylen möchte, dann eine geschwungene Klammer, dann der Style und schlussendlich eine weiter geschwungene Klammer*/
+body{
+    /*Bestimmt die Schriftart*/
+    font-family: sans-serif;
+    /*Legt den Hintergrund für das gesamte Dokument fest*/
+    background-color: rgba(245, 245, 220, 0.518);
+}
+h1, h2, h3{
+    /*Mit diesem Befehl können Sie die Schriftfarbe des jeweiligen Elements ändern*/
+    color: gray;
+}
+/*Das war der CSS-Teil -> Hier sagen wir, wie bestimmte Elemente auf unserer Webseite aussehen sollten.
+Morgen werden wir uns noch mit JS beschäftigen, mit dem Ziel, der Webseite eine bestimmte Funktion zuzuweisen.*/
